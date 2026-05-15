@@ -1,0 +1,24 @@
+{
+  "name": "stable-diffusion-from-zero",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Day 34 of TechFromZero — Stable Diffusion playground via Pollinations.ai (zero auth)",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "cli": "node cli/generate.js"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "^5.6.3",
+    "vite": "^6.0.7"
+  }
+}
